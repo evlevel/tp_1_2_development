@@ -34,7 +34,7 @@ public class Roll
 	{
 
 		return this.dice.getDie1().getLastRoll() == 1 && this.dice.getDie2().getLastRoll() == 2
-			|| this.dice.getDie2().getLastRoll() == 1 && this.dice.getDie1().getLastRoll() == 2;
+				|| this.dice.getDie2().getLastRoll() == 1 && this.dice.getDie1().getLastRoll() == 2;
 	}
 
 	public boolean isDoubleSkunk()

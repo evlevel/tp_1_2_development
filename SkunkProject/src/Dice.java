@@ -9,7 +9,7 @@ import edu.princeton.cs.introcs.StdOut;
  * @author eric
  *
  */
- 
+
 public class Dice
 {
 	// Instance fields (variables) may be declared anywhere in class body
@@ -82,7 +82,7 @@ public class Dice
 		{
 			dice1.roll();
 			StdOut.println(dice1);
-			
+
 			if (dice1.getLastRoll() == 2)
 				doubleSkunkCount++;
 		}
@@ -96,17 +96,17 @@ public class Dice
 		// TODO Auto-generated method stub
 		return this.die1;
 	}
-	
+
 	public Die getDie2()
 	{
 		return this.die2;
 	}
-	
+
 	public void setDie1(Die d)
 	{
 		this.die1 = d;
 	}
-	
+
 	public void setDie2(Die d)
 	{
 		this.die2 = d;
